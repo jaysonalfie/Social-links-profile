@@ -26,7 +26,8 @@ body {
   flex-direction: column;
   width: 100%;
   height: 100vh;
-  background-color: var(--grey900);
+
+  /* background-color: var(--grey900); */
 }
 
 .main-container{
@@ -36,6 +37,7 @@ body {
     margin: auto;
     width: 350px;
     background-color: var(--grey800);
+    max-width: 375px;
 }
 
 .profile-header{
@@ -100,7 +102,7 @@ body {
     color: var(--grey900);
 }
 
-@media only screen and (max-width:375px){
+/* @media only screen and (max-width:375px){
     .main-container{
         width: 300px;
     }
@@ -109,5 +111,15 @@ body {
         font-size: 0.5rem;
         font-weight: 600;
         letter-spacing: 1px;
+    }
+} */
+
+@media only screen and (min-width:375px){
+    .main-container{
+        padding: 1.4rem;
+        
+    }
+    body{
+        background-color: var(--grey900);
     }
 }

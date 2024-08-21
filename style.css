@@ -69,7 +69,7 @@ max width ensure that it does not exceed the length on larger screens*/
 
 }
 
-.profile-header h4{
+.profile-header h3{
     color: var(--green);
     margin-bottom: 1.3rem;
     font-weight:600;

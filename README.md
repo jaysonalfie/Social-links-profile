@@ -32,6 +32,7 @@ Users should be able to:
 I also used HTML together with CSS to make the layout and also Javascript to make the button clickable and lead to the sites. Vanilla css was used for styling of the component.
 
 ## Built with
+
 - Semantic HTML5 markup
 - CSS custom properties
 - Javascript

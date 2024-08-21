@@ -29,14 +29,18 @@ body {
   background-color: var(--grey900);
 }
 
+
+/*
+width at 90% ensure that it shrinks on screen less than 375px
+max width ensure that it does not exceed the length on larger screens*/
 .main-container{
     border: 1px solid black;
     padding: 1.4rem;
     border-radius: 0.7rem;
     margin: auto;
-    width: 350px;
+    width: 90%;
     background-color: var(--grey800);
-    max-width: 375px;
+    max-width: 355px;
 }
 
 .profile-header{
@@ -101,24 +105,14 @@ body {
     color: var(--grey900);
 }
 
-/* @media only screen and (max-width:375px){
-    .main-container{
-        width: 300px;
-    }
 
-    p{
-        font-size: 0.5rem;
-        font-weight: 600;
-        letter-spacing: 1px;
-    }
-} */
 
 @media only screen and (min-width:375px){
     .main-container{
+        width: 100%;
+        max-width: 360px;
         padding: 1.4rem;
         
     }
-    body{
-        background-color: var(--grey900);
-    }
+    
 }
